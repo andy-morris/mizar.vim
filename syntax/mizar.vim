@@ -18,7 +18,8 @@ syn keyword mizOuter environ begin
 hi def link mizOuter Structure
 
 syn keyword mizEnviron vocabularies notations constructors registrations
-                     \ definitions theorems schemes
+                     \ definitions theorems schemes requirements
+                     \ equalities expansions
 hi def link mizEnviron Typedef
 
 syn keyword mizDecl reserve theorem definition notation scheme end
