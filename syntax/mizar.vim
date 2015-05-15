@@ -54,7 +54,7 @@ syn match mizOp /\.\?=\|<>\|<=\|>=\|\<do\(es\)\?\>\(\_s\+not\)\?/
 syn match mizOp /+\|-\|\/\|\*\|c=/
 hi def link mizOp Constant
 
-syn match mizLabel /^\w\+:\|:\w\+:/
+syn match mizLabel /\w\+:\|:\w\+:/
 hi def link mizLabel Special
 syn match mizThmRef contained nextgroup=mizThmRefComma,mizThmRefArg
   \ skipwhite skipnl /\w\+\(\s*:\s*\(\(sch\|def\)\s*\)\?\d\+\)\?/
